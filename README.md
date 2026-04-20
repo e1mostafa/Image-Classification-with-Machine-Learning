@@ -1,6 +1,5 @@
-🧠 Image Classification AI Models
-
-A machine learning project for image classification using multiple models including Logistic Regression, Random Forest, and Support Vector Machine. The project also provides interactive interfaces using Streamlit and Tkinter.
+A machine learning project for image classification using multiple models including Logistic Regression, Random Forest, and Support Vector Machine (SVM).
+The project also provides interactive interfaces using Streamlit and Tkinter.
 
 📂 Project Structure
 ├── logistic.joblib     # Trained Logistic Regression model
@@ -38,9 +37,6 @@ python tekinter
 3. Open Notebook
 jupyter notebook mlpjt.ipynb
 📦 Requirements
-
-Example dependencies:
-
 numpy
 pandas
 scikit-learn
@@ -51,18 +47,10 @@ opencv-python
 📸 How It Works
 Load an image
 Preprocess (resize / normalize)
-Pass to selected model
-Output predicted class
+Pass it to the selected model
+Output the predicted class
 💡 Future Improvements
 Add Deep Learning model (CNN)
 Improve UI/UX
 Add model accuracy comparison dashboard
 Deploy online (Streamlit Cloud / AWS)
-👨‍💻 Author
-
-Elmostafa Mohamed
-Cybersecurity & Software Engineering Student
-
-⭐ Notes
-Make sure the SVM model is extracted before use
-Ensure all .joblib files are in the same directory
